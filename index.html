@@ -253,16 +253,15 @@
 <br />
 <a href="javascript:go()"><h1>go</h1></a>
 <br />
-<h1>
 <footer>
 <center><p id="userAg"></p></center>
 </footer>
-</h1>
+
 
     
-
+<h1> THIS DOES NOT WORK ON iOS 9.3.4+</h1>
 <script>
-document.getElementById("userAg").innerHTML = navigator.userAgent;
+document.getElementById("userAg").innerHTML = "UserAgent:" + navigator.userAgent;
 </script>
 </body>
 </html>
